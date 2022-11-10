@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Portfolio website of a full stack web Developer" name="description">
+    <meta content="Portfolio landing page" name="description">
+    <meta content="full stack Developer" name="description">
+    <meta content="Portfolio-resume" name="keywords">
+    <meta content="Portfolio website" name="keywords">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/01894c1cb7.js" crossorigin="anonymous"></script>
+    <title>Rajesh S</title>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.webp" class="logo" alt="Rajesh logo">
+        
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="menu fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="menu fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Rajesh</span> Sivadas<br> from India</h1>
+        </div>
+    </div>
+    </div>
+
+        <!-- About Page -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.webp" alt="photo">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a New born Web Developer with wider experience AFC Systems of Metro and Computers and hardware Systems</p>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick ="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick ="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>MERN / MEAN</span><br>Desiging Web/App Intefaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span> Mobile App Development</span><br>Building Android and iOs apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2017 - 2022 Spetember</span> <br>Assistant Manager at AGS Transact Technologies Ltd</li>
+                            <li><span>2013 - 2017</span><br>Hardware Engineer at Akshaya Computers</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013</span><br>B.Tech Electronics and Communication from University of Calicut</li>
+                            <li><span>2008</span><br>Plus Two form GHSS Malampuzha</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+        <!-- Services -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>You can expect the best in class support on the Web designs</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI / UX Design</h2>
+                <p>To Explore the Simple and Unqiue designs also to experience the best in class results </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>The Cross Platform Mobile apps with shorter time</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<div id="vision">
+    <div class="container">
+        <h1 class="subtitle">My Vision Board </h1>
+        <div class="vision-list">
+            <div class="vision">
+                <img src="images/visionbaord.webp" alt="vision board">
+                <div class="layer">
+                    <h3>My Vision Board</h3>
+                    <p>This the first Vision Board I Ever Made , And i am happy that it helps me to achieve the remeber my goals and also helps in Manifesting</p>
+                    <a href="https://drive.google.com/file/d/1jVecQqUveT6Wontv0gc_7XRc9JzW9rYx/view?usp=sharing" target="blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="vision">
+                <img src="images/affirmations.webp" alt="affirmations">
+                <div class="layer">
+                    <h3>My affirmations</h3>
+                    <p>The Affirmations is also a new approach that i have began to follow, i am feeling confident that i can make things on correct way</p>
+                    <a href="https://docs.google.com/presentation/d/1t6a2KjlLGwuRQb5mfg8KFu85TIxPK9iH9NGk5yIG-1Q/edit?usp=share_link" target="blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#header" class="btn">See More</a>
+    </div>
+
+</div>
+
+
+
+
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.webp" alt="first site">
+                    <div class="layer">
+                        <h3>Britania Clone</h3>
+                        <p>This project has completed as a part of Brocamp's first week of Assignment and the site is a fully functional desktop friendly static Page  </p>
+                        <a href="https://rajeshsrrs.github.io/firstclone/" target="blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.webp" alt="second site">
+                    <div class="layer">
+                        <h3>Apple Static Clone</h3>
+                        <p>This also completed as a part of first week Assignment, as a beginner i struggeled to complete the website on time eventhough it was complete perfectly</p>
+                        <a href="https://rajeshsrrs.github.io/appleclone/ " target="blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.gif" alt="third site">
+                    <div class="layer">
+                        <h3>Responsive Apple Clone</h3>
+                        <p>As part of Second weeks assignment this website is made using the bootstrap and Javascript, And this a Responsive website. With samll limitations</p>
+                        <a href="https://rajeshsrrs.github.io/apple-responsive/" target="blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#header" class="btn">See More</a>
+        </div>
+
+    </div>
+
+
+    <!-- Contact Page -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>rajeshsrrs.brocamp@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9349775456</p>
+                    <div class="socialicons">
+                        <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/rajesh_sivadas" target="blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBDuXFpQuTZqQxDAaifLX%2Fw%3D%3D" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form id="submit-form" action="">
+                   
+                        <input type="text" name="name" id="contact-name" onkeyup="validateName()" placeholder="Your Name">
+                        <span id="name-error"></span>
+
+                        <input type="text" name="moble number" id="contact-phone" onkeyup="validatePhone()" placeholder="Your Mobile Number">
+                        <span id="phone-error"></span>
+                    
+                        <input type="text" name="email"id="contact-email" onkeyup="validateEmail()" placeholder="Your Email">
+                        <span id="email-error"></span>
+        
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <span id="submit-error"></span>
+                        <button type="submit" class="btn btn2" onclick=" return validateForm()">Submit</button>
+                        
+                    </form>
+                    <span id="msg"></span>
+
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Rajesh.</p>
+        </div>
+    </div>
+
+
+     
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>
